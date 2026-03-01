@@ -12,8 +12,8 @@ while contagem < 1:
     url = "https://www.kabum.com.br/produto/463543/placa-de-video-rx-7600-series-graphics-cards-xfx-amd-radeon-8gb-gddr6-rx-76pqickby"
 
     def enviar_alerta(menssagem):
-        token = "8701620770:AAHhshgDEeC2zoFlPCdSUiORzNP1t2ezJpk"
-        chat_id = "6055171559"
+        token = "Seu Token aqui"
+        chat_id = "Seu Chat ID Aqui"
         url_telegram = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={menssagem}"
         requests.get(url_telegram) 
 
